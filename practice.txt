@@ -1,0 +1,24 @@
+mmmm thats workin
+NVIM v0.10.0- quit with exit code 1 and signal 0. Check log for errors: ~/.local/state/nvim/lsp.log
+
+the log reads:
+
+1
+g
+ggggggggggggggggggggggggggggggggggggggggggggggggggg
+
+j[ERROR][2023-08-11 16:49:35] .../vim/lsp/rpc.lua:675 "rpc" "~/.local/share/nvim/mason/bin/pyright-langserver" "stderr" "internal/modules/cjs/loader.js:638\n throw err;\ n ^\n\nError: Cannot find module 'y found the follwoing discussion on git, mentioning something about node 15 that stopts pyright for throwing an error:
+
+i
+https://github.comeovim/neovim/issues/13448
+I'm currently using mason with lfig and set it up nicely with cmp. It works great for tex and html files, however the python language server doesn't want to start. I get the following error:
+
+
+O
+Client pyrightut here I'm totally out of my I would like to implement one of the workarounds (i.e. the first) but I don't know where I would copy paste the text to. Any other solutions than silencing pyright?
+epth.
+
+
+
+
+
