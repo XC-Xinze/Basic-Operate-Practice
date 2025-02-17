@@ -32,9 +32,18 @@ first_Restaurant.customer_update(0)
 first_Restaurant.customer_update(5)
 
 
-class SmallRestaurant(Restaurant):
+class MeatKind:
+    def __init__(self) -> None:
+        pass
+
+    def meat_kind_print(self):
+        print("Only pork")
+
+
+class SmallRestaurant(Restaurant):  # 子类
     def __init__(self, name, cuisine):
         super().__init__(name, cuisine)
+        self.meat = MeatKind()  # 类中类,集合,属性用类: :
 
     def open_restaurant(self):  # 重写方法
         print("Small restaurant is closed.")
@@ -42,3 +51,4 @@ class SmallRestaurant(Restaurant):
 
 second_restaurant = SmallRestaurant("Tieling", "Only meat")
 second_restaurant.open_restaurant()
+second_restaurant.meat.meat_kind_print()
