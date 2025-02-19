@@ -10,3 +10,7 @@ and
 - Nvim Operate
 - Git practice
 - more and more ...
+|Date|Practice|
+|---|---|
+|2025-02-17|N|
+|2025-02-18|N|
