@@ -18,9 +18,5 @@ while True:
     formated_name = get_formatted_name(first, last)
     print("Formated name is:", formated_name)
 # 单元测试unit test 全覆盖测试full coverage
-
-
-def test_get_formatted_name():  # test 代码要以test开头,文件名也是要以test开头:
-    formated_name = get_formatted_name("jack", "bill")
-    assert formated_name == "Jack Bill"  # assert 为'断言'即是否满足特定条件
-    # 运行方法,使用pytest 环境运行程序
+# test_pytest_check中为对单一函数的测试,也可以有多个函数
+# 接下来是对于类的测试,在survey文件中

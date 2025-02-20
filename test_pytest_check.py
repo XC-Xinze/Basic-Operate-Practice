@@ -1,4 +1,6 @@
-from TestCode import get_formatted_name
+def get_formatted_name(first, last):
+    fullname = f"{first} {last}"
+    return fullname.title()
 
 
 def test_get_formatted_name():  # test 代码要以test开头
